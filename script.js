@@ -163,3 +163,11 @@ greenbtn.addEventListener("click", () => {
     yellowlight.style.cssText = "background-color:rgba(255,255,0,0.5); box-shadow: none;";
 
 });
+
+
+let pagebtn = document.querySelector('.btn-sec')
+
+let goto = (page)=>{
+  window.location.href = page
+}
+pagebtn.addEventListener('click',()=>goto('./dayTwoTasks.html'))
