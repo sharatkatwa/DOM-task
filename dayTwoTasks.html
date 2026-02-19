@@ -1,26 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Day 2 DOM Tasks</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
- <header>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
       <nav><button class="btn-sec">Go Back</button></nav>
     </header>
-      <main>
+    <main>
       <!-- Task1 starts here -->
       <section>
-        <h4 class="title">Task 1: Text Change on Button Click</h4>
+        <h4 class="title">1. Dice Game</h4>
         <div class="question q1">
-          <p class="task1-p">Hello</p>
-          <button class="btn btn1">Change text</button>
+          <div class="dice-container"></div>
+          <h3 class="winner"></h3>
+          <button class="btn btn1">Roll Dice</button>
+        </div>
+      </section>
+      <!-- Task2 starts here -->
+      <section>
+        <h4 class="title">2. Random Color Card Generator</h4>
+        <div class="question q2">
+          <div class="card-container"></div>
+          <h3 class="winner"></h3>
+          <button class="btn btn2">Genarate Random Cards</button>
         </div>
       </section>
       
-      </main>
+      <!-- Task3 starts here -->
+      <section>
+        <h4 class="title">3. Lottery System
+</h4>
+        <div class="question q3">
+        <label for="number">Type Number from 1 to 50</label>
+            <input type="number" name="number" min='1' max="50" id="task3-input">
+          <h3 class="winner3"></h3>
+          <button class="btn btn3">Guess the number</button>
+        </div>
+      </section>
+      <!-- Task3 starts here -->
+      <section>
+        <h4 class="title">3. Lottery System
+</h4>
+        <div class="question q4">
+          <div class="img-container"></div>
+          <h3 class="img-src4"></h3>
+          <button class="btn btn4">Get an img</button>
+        </div>
+      </section>
+    </main>
     <script type="module" src="dayTwoTasks.js"></script>
-</body>
+  </body>
 </html>

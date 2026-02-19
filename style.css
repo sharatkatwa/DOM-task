@@ -50,6 +50,7 @@ font-size: 1.2em;
     color: white;
     border: 1px solid #837a76;
     letter-spacing: -.5px;
+    margin-bottom: 20px;
     
 }
 
@@ -188,3 +189,35 @@ padding-top: 40px;
         flex-wrap: nowrap;
     }
 } */
+
+
+/* task 2 css Day 2*/
+
+.card-container{
+    min-height: 30vh;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* task 3 css Day 2*/
+
+#task3-input{
+        height: 50px;
+    width:150px;
+    font-size: 1.2em;
+
+    padding:10px;
+    background: linear-gradient(to top right ,rgba(128, 128, 128, 0.185),rgba(128, 128, 128, 0.158));
+    color: white;
+    border: 1px solid #302c2a;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* task 4 css Day 2 */
+
+.img-container{
+    min-height: 30vh;
+    width: 100%;
+}
